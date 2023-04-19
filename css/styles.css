@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #dd7777;
-  --secondary-color: #fde9df;
+  --branding-color: #ffaaa5;
+  --secondary-color: #fff0df;
   --off-white: #fffdfb;
   --text-color: #2a363b;
   --heading-font-family: "Nunito", sans-serif;
@@ -41,6 +41,27 @@ h3 {
 }
 
 .btn-branding:hover {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+}
+
+.project-description {
+  padding: 0 20px;
+}
+
+.btn-branding-outline {
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.btn-branding-outline:hover {
   background-color: var(--branding-color);
-  color: var(--text-color);
+  color: var(--off-white);
+}
+
+img {
+  size: 1500px;
 }
