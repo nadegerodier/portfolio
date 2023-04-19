@@ -67,6 +67,25 @@ h3 {
   color: var(--off-white);
 }
 
-img {
-  size: 1500px;
+@media (max-width: 576px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .btn-branding-outline {
+    display: block;
+    margin: 0 50px;
+  }
 }
