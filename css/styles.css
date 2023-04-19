@@ -1,7 +1,46 @@
 :root {
+  --branding-color: #dd7777;
+  --secondary-color: #fde9df;
+  --off-white: #fffdfb;
+  --text-color: #2a363b;
   --heading-font-family: "Nunito", sans-serif;
+  --default-font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+  background-color: var(--off-white);
+  color: var(--text-color);
 }
 
 h1 {
   font-family: var(--heading-font-family);
+  font-size: 70px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  padding: 120px 30px;
+}
+
+.btn-branding {
+  background-color: var(--branding-color);
+  color: var(--off-white);
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.btn-branding:hover {
+  background-color: var(--branding-color);
+  color: var(--text-color);
 }
