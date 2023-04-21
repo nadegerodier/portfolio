@@ -67,6 +67,20 @@ h3 {
   color: var(--off-white);
 }
 
+.content {
+  margin-top: 100px;
+}
+
+.content h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.content h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 45px;
