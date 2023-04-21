@@ -29,6 +29,16 @@ h3 {
   line-height: 1.5;
 }
 
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-family: var(--heading-font-family);
+}
+
+nav a:hover {
+  color: var(--branding-color);
+}
+
 .text-center {
   text-align: center;
 }
@@ -98,6 +108,22 @@ h3 {
 
 .btn-submit:hover {
   background-color: var(--off-white);
+}
+
+.navbar-offwhite {
+  background-color: var(--off-white);
+}
+
+.nav-link {
+  color: var(--text-color);
+}
+
+.nav-link:hover {
+  color: var(--branding-color);
+}
+
+.nav-link-active {
+  color: var(--branding-color);
 }
 
 @media (max-width: 576px) {
