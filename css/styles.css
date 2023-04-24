@@ -155,7 +155,7 @@ em {
   color: var(--branding-color);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 45px;
     text-align: center;
