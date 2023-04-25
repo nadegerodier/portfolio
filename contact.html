@@ -98,15 +98,22 @@
         enctype="multipart/form-data"
         class="contact-form border p-3 rounded mt-5"
         data-netlify="true"
+        data-netlify-honeypot="bot-field"
       >
+        <input name="bot-field" class="d-none" />
         <div class="row">
           <div class="col-sm-6">
             <label class="form-label">First Name<em>*</em></label>
-            <input type="text" class="form-control" required name="firstname" />
+            <input
+              type="text"
+              class="form-control"
+              required
+              name="first_name"
+            />
           </div>
           <div class="col-sm-6 mt-4 mt-sm-0">
             <label class="form-label">Last Name<em>*</em></label>
-            <input type="text" class="form-control" required name="lastname" />
+            <input type="text" class="form-control" required name="last_name" />
           </div>
         </div>
         <div class="mt-4">
