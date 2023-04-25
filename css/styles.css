@@ -17,7 +17,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   font-family: var(--heading-font-family);
 }
 
@@ -36,8 +37,11 @@ h4 {
 }
 
 h5 {
+  font-size: 40px;
+}
+
+h6 {
   font-size: 30px;
-  line-height: 60px;
 }
 
 a:link,
