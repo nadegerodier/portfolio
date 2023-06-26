@@ -81,8 +81,8 @@ em {
 }
 
 .hero {
-  background-image: radial-gradient(#ffe8af 1px, var(--secondary-color) 1px);
-  background-size: 10px 10px;
+  background-image: radial-gradient(#ffe8b6 1px, var(--secondary-color) 1px);
+  background-size: 12px 12px;
   padding: 80px 30px;
 }
 
