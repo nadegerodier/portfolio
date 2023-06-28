@@ -13,6 +13,20 @@ body {
   font-family: var(--default-font-family);
 }
 
+nav {
+  padding: 12px 0 !important;
+}
+
+nav a {
+  color: var(--text-color);
+  font-family: var(--heading-font-family);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--branding-color);
+}
+
 h1,
 h2,
 h3,
@@ -44,22 +58,16 @@ h6 {
   font-size: 30px;
 }
 
+p {
+  font-size: 18px;
+}
+
 a:link,
 a:hover {
   transition: all 150ms ease-in-out;
 }
 
-nav {
-  padding: 12px 0 !important;
-}
-
-nav a {
-  color: var(--text-color);
-  font-family: var(--heading-font-family);
-  text-decoration: none;
-}
-
-nav a:hover {
+form em {
   color: var(--branding-color);
 }
 
@@ -67,13 +75,13 @@ footer h3 {
   font-size: 30px;
 }
 
+footer p {
+  font-size: 16px;
+}
+
 footer .contact-box {
   background-color: var(--secondary-color);
   padding: 20px 0;
-}
-
-em {
-  color: var(--branding-color);
 }
 
 .text-center {
