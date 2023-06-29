@@ -188,6 +188,11 @@ footer .contact-box {
   margin-bottom: 20px;
 }
 
+#projects-link {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
 .contact-form {
   display: block;
   margin: 0 auto;
