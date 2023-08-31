@@ -46,11 +46,8 @@ nav a:hover {
   padding: 8px 12px !important;
 }
 
+.nav-link-active,
 .nav-link:hover {
-  color: var(--branding-color);
-}
-
-.nav-link-active {
   color: var(--branding-color);
 }
 
