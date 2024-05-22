@@ -155,12 +155,16 @@ p {
   padding: 0 20px;
 }
 
+.container {
+  padding: 0 20px;
+}
+
 .content {
   margin-top: 100px;
 }
 
 .content h1 {
-  font-size: 50px;
+  font-size: 45px;
   margin: 0;
 }
 
@@ -213,11 +217,24 @@ footer p {
     margin: 0 0 100px;
     padding: 50px;
   }
+
+  .content h1 {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 992px) {
   h1 {
     font-size: 60px;
+  }
+
+  .content h1 {
+    font-size: 35px;
+  }
+
+  .content h1,
+  .content h3,
+  .content p {
     text-align: center;
   }
 }
@@ -225,7 +242,6 @@ footer p {
 @media (max-width: 768px) {
   h1 {
     font-size: 45px;
-    text-align: center;
   }
 
   .skills {
@@ -277,8 +293,16 @@ footer p {
     margin: 0 50px;
   }
 
+  .content {
+    margin-top: 80px;
+  }
+
   .content h1 {
-    font-size: 45px;
+    font-size: 30px;
+  }
+
+  .content h3 {
+    font-size: 18px;
   }
 
   footer .contact-box {
@@ -312,6 +336,18 @@ footer p {
     font-size: 16px;
   }
 
+  .content h1 {
+    font-size: 28px;
+  }
+
+  .content h3 {
+    font-size: 16px;
+  }
+
+  footer .contact-box {
+    margin-top: 50px;
+  }
+
   footer p {
     font-size: 14px;
   }
@@ -328,14 +364,6 @@ footer p {
 
   h3 {
     font-size: 16px;
-  }
-
-  .content h1 {
-    font-size: 36px;
-  }
-
-  .content h3 {
-    font-size: 18px;
   }
 
   .tools li {
