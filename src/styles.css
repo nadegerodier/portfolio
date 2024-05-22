@@ -305,6 +305,14 @@ footer p {
     font-size: 18px;
   }
 
+  .content h5 {
+    font-size: 34px;
+  }
+
+  .content h6 {
+    font-size: 24px;
+  }
+
   footer .contact-box {
     flex-direction: column;
   }
@@ -342,6 +350,14 @@ footer p {
 
   .content h3 {
     font-size: 16px;
+  }
+
+  .content h5 {
+    font-size: 30px;
+  }
+
+  .content h6 {
+    font-size: 20px;
   }
 
   footer .contact-box {
