@@ -179,7 +179,7 @@ form em {
 
 .contact-form {
   display: block;
-  margin: 0 auto;
+  margin: 80px auto 50px;
   max-width: 1000px;
   text-align: left;
 }
@@ -193,17 +193,18 @@ form em {
   background-color: var(--off-white);
 }
 
+footer .contact-box {
+  background-color: var(--secondary-color);
+  margin-top: 80px;
+  padding: 40px 0;
+}
+
 footer h3 {
   font-size: 30px;
 }
 
 footer p {
   font-size: 16px;
-}
-
-footer .contact-box {
-  background-color: var(--secondary-color);
-  padding: 20px 0;
 }
 
 @media (max-width: 1200px) {
