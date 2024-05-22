@@ -199,10 +199,6 @@ footer .contact-box {
   padding: 40px 0;
 }
 
-footer h3 {
-  font-size: 30px;
-}
-
 footer p {
   font-size: 16px;
 }
@@ -232,10 +228,6 @@ footer p {
   p {
     font-size: 16px;
     text-align: center;
-  }
-
-  footer h3 {
-    font-size: 24px;
   }
 
   .btn-branding-outline {
@@ -273,10 +265,6 @@ footer p {
 
   h3 {
     font-size: 18px;
-  }
-
-  footer h3 {
-    font-size: 22px;
   }
 
   footer h4 {
